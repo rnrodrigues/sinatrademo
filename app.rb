@@ -3,7 +3,7 @@ require 'sinatra/base'
 module MyApi
   class App < Sinatra::Base
     get '/hello' do
-      "Hello World!"
+      "Hi"
     end
     
     get '/' do
